@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Dinică Bianca-Andreea">
+    <meta name="keywords" content="portofoliu, design interior, arhitect">
+    <meta name="description"
+        content="Otho Fenlock prezinta cateva din cele mai extravagante proiecte ale sale cu intentia de a atrage cat mai multi clienti noi.">
+    <title>Portofoliu Profesional</title>
+    <link href="style.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spectral+SC:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spectral+SC:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <style>
+        body {
+            margin: 0;
+            background-color: #91972A;
+        }
+
+        nav {
+            background-color: #313628;
+            position: sticky;
+        }
+
+
+
+        .meniu {
+            color: #FFFFF0;
+            font-family: "Lora", serif;
+            font-size: 30px;
+            text-decoration: none;
+        }
+
+        .meniu:hover {
+            color: #78A1BB;
+        }
+
+
+        p {
+            font-family: "Lora", serif;
+            color: #FFFFF0;
+            font-size: 25px;
+
+        }
+
+
+
+
+
+        h1 {
+            font-family: "Poppins", sans-serif;
+            font-weight: 700;
+            font-size: 70px;
+            color: #FFFFF0;
+        }
+
+        h2 {
+            font-family: "Poppins", sans-serif;
+            font-weight: 500;
+            font-size: 55px;
+            color: #FFFFF0;
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            font-family: "Poppins", sans-serif;
+            font-weight: 500;
+            font-size: 40px;
+            color: #FFFFF0;
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }
+
+
+
+        h4 {
+            font-family: "Poppins", sans-serif;
+            font-weight: 500;
+            font-size: 40px;
+            color: #313628;
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }
+
+        .padding {
+            padding-left: 40px;
+        }
+
+        .paddingr {
+            padding-right: 40px;
+        }
+
+
+
+
+        .centru {
+            align-items: center;
+        }
+
+        .logo-nav {
+            height: 50px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+
+        .logo-footer {
+            height: 60px;
+            padding: 10px;
+        }
+
+        .titlu {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #FFFFF0;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .flentru {
+            display: flex;
+            align-items: center;
+        }
+
+
+        .otho {
+            width: 100%;
+        }
+
+        .carduri {
+            background-color: #723D46;
+            margin-bottom: 10px;
+
+        }
+
+        .preturi {
+            background-color: #78A1BB;
+            margin-bottom: 10px;
+        }
+
+        .spatiu {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .fundal-echipa {
+            background-color: #A69658;
+        }
+
+        .text-echipa {
+            color: #313628;
+        }
+
+        .carusel {
+            height: 70vh;
+            object-fit: cover;
+        }
+
+        .copyright {
+            margin: 0;
+            color: #313628;
+            font-size: 15px;
+        }
+
+        footer {
+            background-color: #A69658;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            margin-top: 20px;
+        }
+
+        .h3-acord {
+            font-family: "Poppins", sans-serif;
+            font-weight: 500;
+            font-size: 40px;
+            color: #313628;
+        }
+
+
+
+        .accordion {
+            --bs-accordion-btn-bg: #A69658;
+            --bs-accordion-active-bg: #A69658;
+            --bs-accordion-active-color: #313628;
+            --bs-accordion-btn-focus-box-shadow: none;
+            --bs-accordion-bg: #A69658;
+            --bs-accordion-color: #313628;
+            --bs-accordion-border-color: #313628;
+        }
+
+        .flex-start {
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="logo-ivory.svg" class="logo-nav"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link meniu" href="#Despre-mine">Despre mine</a>
+                    <a class="nav-link meniu" href="#Proiecte-recente">Proiecte recente</a>
+                    <a class="nav-link meniu" href="#proces-de-lucru">Proces de lucru</a>
+                    <a class="nav-link meniu" href="#preturi">Prețuri</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+            <div class="carousel-item active ">
+                <img src="fundal-echipa-edit.png" class="d-block w-100 carusel"
+                    alt="o echipă care lucrează înjurul unui birou">
+                <div class=" carousel-caption d-none d-md-block ">
+                    <h1>Otho Fenlock</h1>
+                    <p>Designer de interior</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="fundal-proiecte.jpg" class="d-block w-100 carusel" alt="un calculator în fața unui geam">
+            </div>
+            <div class="carousel-item">
+                <img src="materiale.jpg" class="d-block w-100 carusel" alt="mostre demateriale și culori">
+            </div>
+            <div class="carousel-item">
+                <img src="proiectare.jpg" class="d-block w-100 carusel"
+                    alt="o persoană care desenează pe o tabletă grafică">
+            </div>
+            <div class="carousel-item">
+                <img src="desen.jpg" class="d-block w-100 carusel" alt="un desen grafic">
+            </div>
+            <div class="carousel-item">
+                <img src="team-work.jpg" class="d-block w-100 carusel"
+                    alt="trei oameni care lucrează în jurul unui calculator">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <h2 id="Despre-mine" class="padding">Despre mine</h2>
+    <div class=" container-fluid">
+        <div class="row g-0">
+            <div class="col-4">
+                <img src="otho-fundalless.png" class="otho" alt="Otho Fenlock">
+            </div>
+            <div class="col-8">
+                <p>Sunt Otho și mă consider un creator de spații care transformă visurile în realitate.
+                    În calitate dedesigner de interior, îmi folosesc creativitatea și experiența pentru a aduce viață
+                    fiecărui colț de încăpere. Îmi place să combin elemente moderne cu detalii clasice pentru a crea
+                    interioare
+                    elegante și confortabile. Fiecare proiect este o nouă oportunitate de a picta o poveste unică, de la
+                    selecția materialelor până la distribuția perfectă a luminii.</p>
+                <p>De-a lungul anilor, am avut plăcerea de a lucra la diverse proiecte, de la reședințe
+                    private luxoase la spații comerciale inovatoare. Fiecare proiect a fost tratat cu dedicare și
+                    pasiune,
+                    reflectând angajamentul meu pentru excelență și creativitate.
+                    Cred că designul interior nu este doar despre estetică, ci și despre cum te face să te
+                    simți un spațiu.
+                    "Designul interior nu este doar despre cum arată un spațiu, ci și despre cum te simți
+                    în acel spațiu."</p>
+            </div>
+        </div>
+    </div>
+    <div class="padding">
+
+        <h3>Cu cine lucrez?</h3>
+
+        <div class="card mb-3 fundal-echipa container-fluid" style="max-width: 80vw;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="lydia.jpg" class="img-fluid rounded-start otho" alt="Lydia Deetz">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h4 class="card-title">Lydia Deetz</h4>
+                        <p class="card-text text-echipa">Lydia este o analistă de culori cu un ochi rafinat pentru
+                            nuanțe și armonii
+                            cromatice.
+                            Printr-o combinație de cunoștințe tehnice și talent artistic, Lydia creează palete de culori
+                            care transformă spațiile și produsele într-o experiență vizuală unică.</p>
+                        <p class="card-text text-echipa">Lydia a colaborat cu diverse branduri și designeri pentru a
+                            perfecționa
+                            identitatea
+                            vizuală a produselor și spațiilor. Proiectele sale includ consultanță cromatică pentru
+                            colecții
+                            de modă,
+                            interioare de locuințe și campanii de marketing, demonstrând versatilitatea și expertiza sa
+                            în
+                            domeniu.</p>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3 fundal-echipa container-fluid" style="max-width: 80vw;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="amanda-smaller.jpg" class="img-fluid rounded-start otho" alt="Sarah Dean">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h4 class="card-title">Sarah Dean</h4>
+                        <p class="card-text text-echipa">Sarah Dean este un specialist de renume în domeniul
+                            materialelor textile, cunoscută
+                            pentru
+                            cunoștințele sale aprofundate și abordarea inovatoare. Cu o carieră impresionantă în spate,
+                            Sarah aduce un amestec unic de expertiză tehnică și pasiune pentru inovație în industria
+                            textilă.</p>
+                        <p class="card-text text-echipa">Implicată activ în cercetare și dezvoltare, Sarah explorează
+                            constant noi tehnologii și
+                            metode pentru
+                            a crea materiale textile avansate. Aceasta include dezvoltarea de țesături inteligente și
+                            ecologice,
+                            care nu doar îmbunătățesc performanța produselor, ci și promovează sustenabilitatea în
+                            industrie.</p>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3 fundal-echipa container-fluid" style="max-width: 80vw;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="adam.jpg" class="img-fluid rounded-start otho" alt="Adam Maitland">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h4 class="card-title">Adam Maitland</h4>
+                        <p class="card-text text-echipa">Adam Maitland este un specialist în design 3D cunoscut pentru
+                            creativitatea sa
+                            inovatoare și
+                            abilitățile tehnice excepționale. Cu o carieră solidă în domeniul designului tridimensional,
+                            Adam îmbină arta și tehnologia pentru a crea soluții vizuale impresionante și funcționale.
+                        </p>
+                        <p class="card-text text-echipa">Cu un background educațional solid în arte vizuale și
+                            inginerie, Adam a acumulat
+                            cunoștințe esențiale
+                            care îi permit să înțeleagă atât aspectele estetice, cât și pe cele tehnice ale designului
+                            3D. El
+                            continuă să își perfecționeze abilitățile prin participarea la cursuri avansate și
+                            workshopuri de
+                            specialitate.</p>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h2 id="Proiecte-recente" class="padding">Proiecte recente</h2>
+    <div class="row g-0">
+        <div class="col-sm-6 mb-3 mb-sm-0 spatiu">
+            <div class="card carduri">
+                <img src="coming-soon.jpg" class="card-img-top" alt="o sufragerie luminoasă cu balcon">
+                <div class="card-body">
+                    <p class="card-text">Am ales materiale durabile și ușor de întreținut pentru ambele zone,
+                        asigurându-mă că se potrivesc vizual și funcțional. Am rearanjat mobilierul pentru a defini clar
+                        zonele de living și
+                        bucătărie, menținând totodată un flux deschis și primitor. Am integrat surse de iluminat
+                        multiple și am
+                        adăugat elemente decorative care să creeze un aspect unitar și atrăgător.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 spatiu">
+            <div class="card carduri">
+                <img src="connecticut.jpg" class="card-img-top"
+                    alt="un living luminos, tip open space cu o bucătărie albă">
+                <div class="card-body">
+
+                    <p class="card-text">Am ales materiale de calitate, inclusiv pentru pardoseli, vopsele și textile,
+                        pentru a asigura durabilitatea și estetica. Am rearanjat mobilierul pentru a optimiza fluxul și
+                        funcționalitatea,
+                        integrând o masă centrală și scaune confortabile. Am integrat surse de iluminat adecvate și am
+                        adăugat elemente decorative, cum ar fi opere de artă și plante, pentru a crea o atmosferă
+                        primitoare.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row g-0">
+        <div class="col-sm-6 mb-3 mb-sm-0 spatiu">
+            <div class="card carduri">
+                <img src="file.jpg" class="card-img-top" alt="o sufragerie simplă cu mobilă rustică">
+                <div class="card-body">
+                    <p class="card-text">Am ales materiale durabile și ușor de întreținut, potrivite pentru viața de zi
+                        cu zi a familiei. Am
+                        rearanjat mobilierul pentru a maximiza funcționalitatea și pentru a crea un flux optim. Am
+                        integrat
+                        surse de iluminat diverse și am adăugat elemente de decor personalizate.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 spatiu">
+            <div class="card carduri">
+                <img src="new-york.jpg" class="card-img-top" alt="o bucătărie alba, cu marmură">
+                <div class="card-body">
+
+                    <p class="card-text">Mobilierul a fost reconfigurat strategic pentru a crea un flux eficient în
+                        bucătărie. Am integrat multiple surse de iluminat pentru a
+                        asigura o iluminare adecvată în toate zonele de activitate și am adăugat accente decorative
+                        personalizate pentru a oferi un caracter unic și primitor.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="padding container-fluid">
+        <h2 id="proces-de-lucru">Proces de lucru</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col acord">
+                    <div class="accordion acord" id="accordionExample">
+                        <div class="accordion-item acord">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button acord h3-acord" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Consultarea inițială
+                                </button>
+                            </h3>
+                            <div id="collapseOne" class="accordion-collapse collapse show acord"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="text-echipa">Designerul se întâlnește cu clientul pentru a discuta
+                                        nevoile,
+                                        preferințele și
+                                        bugetul
+                                        acestuia. Este o oportunitate pentru designer de a înțelege stilul de viață și
+                                        gusturile
+                                        clientului.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed h3-acord" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    Evaluarea spațiului
+                                </button>
+                            </h3>
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="text-echipa">Designerul analizează spațiul existent, luând în considerare
+                                        dimensiunile, structura și
+                                        eventualele
+                                        constrângeri tehnice. Fotografiile și măsurătorile sunt esențiale în această
+                                        etapă.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed h3-acord" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    Conceperea planului
+                                </button>
+                            </h3>
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="text-echipa">Pe baza informațiilor obținute, designerul creează un concept
+                                        inițial. Acesta poate include
+                                        schițe,
+                                        planuri
+                                        de etaj și idei de design. În această fază, se discută și paleta de culori,
+                                        materialele și stilurile
+                                        preferate.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed h3-acord" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                                    aria-controls="collapseFour">
+                                    Prezentarea propunerilor
+                                </button>
+                            </h3>
+                            <div id="collapseFour" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="text-echipa">Designerul prezintă conceptul și ideile clientului, oferind
+                                        diferite opțiuni și sugestii.
+                                        Feedback-ul
+                                        clientului este vital pentru ajustarea și perfecționarea propunerii inițiale.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed h3-acord" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
+                                    aria-controls="collapseFive">
+                                    Detalierea proiectului
+                                </button>
+                            </h3>
+                            <div id="collapseFive" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="text-echipa">După aprobare, designerul dezvoltă planuri detaliate,
+                                        specificații
+                                        tehnice și selecții de
+                                        produse.
+                                        Aceasta
+                                        include totul, de la mobilier și textile, până la corpuri de iluminat și
+                                        accesorii.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed h3-acord" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false"
+                                    aria-controls="collapseSix">
+                                    Gestionarea bugetului și a achizițiilor
+                                </button>
+                            </h3>
+                            <div id="collapseSix" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="text-echipa">Designerul se asigură că proiectul rămâne în limitele
+                                        bugetului
+                                        stabilit, gestionând
+                                        achizițiile și
+                                        coordonând comenzi de materiale și piese de mobilier.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed h3-acord" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false"
+                                    aria-controls="collapseSeven">
+                                    Supravegherea lucrărilor
+                                </button>
+                            </h3>
+                            <div id="collapseSeven" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="text-echipa">Designerul coordonează și supraveghează lucrările de renovare
+                                        sau
+                                        reamenajare, asigurându-se că
+                                        toate
+                                        elementele sunt implementate conform planului și standardelor de calitate.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed h3-acord" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false"
+                                    aria-controls="collapseEight">
+                                    Stilizare și finalizare
+                                </button>
+                            </h3>
+                            <div id="collapseEight" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="text-echipa">După finalizarea lucrărilor, designerul adaugă ultimele
+                                        detalii și
+                                        accente decorative pentru a
+                                        transforma
+                                        spațiul într-un loc plăcut și funcțional. De multe ori, aceasta implică
+                                        organizarea și aranjarea pieselor de
+                                        decor pentru a completa vizual întregul design.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h2 id="preturi" class="padding">Prețuri</h2>
+    <div class="container text-center">
+        <div class="row row-cols-4 g-0">
+            <div class="col spatiu">
+                <div class="card preturi h-100 ">
+                    <div class="card-body">
+                        <h3 class="titlu-card card-title ">O cameră</h3>
+                        <p class="p-card card-text ">200$</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col spatiu">
+                <div class="card preturi h-100 ">
+                    <div class="card-body">
+                        <h3 class="titlu-card card-title ">Două camere</h3>
+                        <p class="p-card card-text ">400$</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col spatiu">
+                <div class="card preturi h-100">
+                    <div class="card-body">
+                        <h3 class="titlu-card card-title ">Baie sau Bucătărie</h3>
+                        <p class="p-card card-text ">300$</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col spatiu">
+                <div class="card preturi h-100">
+                    <div class="card-body">
+
+                        <h3 class="titlu-card card-title ">Întreaga casă</h3>
+                        <p class="p-card card-text ">1000$</p>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                            Nou
+                            <span class="visually-hidden">unread messages</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <footer>
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <div class="col flex-start">
+                    <a href="index.html"> <img src="logo-blackolive.svg" class="logo-footer"> </a>
+
+                    <p class="copyright"><img src="copy.svg" class="logo-footer">Toate drepturile rezervate</p>
+                </div>
+                <div class="col">
+                    <a href="https://www.instagram.com/" target="_blank"><img src="instagram.svg"
+                            class="logo-footer"></a>
+                    <a href="https://www.facebook.com/" target="_blank"><img src="facebook.svg" class="logo-footer"></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><img src="linkedin.svg" class="logo-footer"></a>
+                </div>
+                <div class="col">
+                    <p class="copyright">othofenlock@contact.com</p>
+                    <p class="copyright">+1234567890</p>
+                    <a href="https://maps.app.goo.gl/zPZueEXW5bhYx47y9" target="_blank"> <img src="maps.svg"
+                            class="logo-footer"> </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
